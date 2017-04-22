@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Fake Search Engine</title>
+	<link rel="stylesheet" href="/css/index.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src=""></script>
+
+</head>
+<body>
+	<ul id="search_package">
+            <!--
+            <form id="add_new_contact" role="form" method="get" action="/search-contact">
+            -->
+            <li>
+                <h3>Please search the answers for the following questions: ... </h3>
+                <input id="search_str" type="text" name="search_str" placeholder="" value="">
+            </li>
+            <li>
+                <button id="search_button" class = "search_button" onclick="">
+                    <strong>Search</strong>
+                </button>
+            </li>
+            <li>
+                <br>
+                <h3 id="list_search_res"></h3>
+            </li>
+            <li class="search_item">
+                <div class="container">
+                    <div class="control-group">                     
+                        <div class = "plugin"></div>
+                            <!--
+                                    <label class="control control--checkbox">
+                                        <h5 class = "res_name"><img class="contact_img" hspace="10" src=""></h5>
+                                        <input id = "user" type="checkbox" name="user" value="">
+                                        <div class="control__indicator"></div>
+                                    </label>
+                            -->
+                    </div>
+                </div>
+            </li>
+            <div class = "plugin_no_res"></div>
+        </ul>
+</body>
+</html>
