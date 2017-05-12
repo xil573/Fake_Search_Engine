@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Fake Search Engine</title>
+	<link rel="stylesheet" href="/css/index.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/question1.js"></script>
+
+</head>
+<body>
+    <li>
+        <h3>1. Please plan your day trip to San Diego based on the itmes shown below.</h3>
+        <button id = "next_button" class = "next_button" onclick = "gotoQuestion2()">Next</button>
+    </li>
+    <textarea rows="10" cols="80"></textarea>
+    <ul id="contact_list">
+        {{#each item}}
+            <li class="items">
+                <a href="q1_items/{{id}}" class="thumbnail">
+                    <p>{{title}}</p>
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+</body>
+</html>
