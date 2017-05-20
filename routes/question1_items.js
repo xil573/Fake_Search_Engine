@@ -8,11 +8,15 @@ exports.view = function (req, res) {
 	for (i = 0; i < data.item.length; i++){
       if (data.item[i].id == id){
             var content = data.item[i].content;
-            console.log(content);
+            //console.log(content);
+            var image = data.item[i].image;
+            var link = data.item[i].link;
         }
     }
 
     res.render('question1_items', {
-    	'content': content
+    	'content': content,
+        'image': image,
+        'link': link
     });
 };
