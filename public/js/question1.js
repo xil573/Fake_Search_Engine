@@ -5,11 +5,7 @@ function gotoQuestionnaire(){
 function gotoQuestion2(){
 	window.location.href = "question2";
 }
-
-function two_char(n) {
-    return n >= 10 ? n : "0" + n;
-}
-
+//timing functions
 var c = 0;
 var t;
 function timeCount(){
