@@ -11,7 +11,7 @@ var handlebars = require('express3-handlebars');
 var index = require('./routes/index');
 var q1 = require('./routes/question1');
 var q1_items = require('./routes/question1_items');
-var questionnaire = require('./routes/questionnaire');
+var questionnaire1 = require('./routes/questionnaire1');
 
 var app = express();
 
@@ -38,8 +38,10 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/question1', q1.view);
+app.get('/addAnswer_for_question1', q1.addAnswer);
 app.get('/q1_items/:id', q1_items.view);
-app.get('/questionnaire', questionnaire.view);
+app.get('/questionnaire1', questionnaire1.view);
+app.get('/questionnaire_for_question1', questionnaire1.addAnswer);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
