@@ -6,7 +6,7 @@
 			"car_types": "SUV",
 			"seats": "5",
 			"price": "$35",
-			"img": "https://goo.gl/YjlbB4"
+			"img": "http://i.imgur.com/atShZqc.png"
 		},
 		{
 			"id": "2",
@@ -14,7 +14,7 @@
 			"car_types": "Economy",
 			"seats": "4",
 			"price": "$37",
-			"img": "https://goo.gl/AjzSo0"
+			"img": "http://i.imgur.com/JIrgSHm.png"
 		},
 		{
 			"id": "3",
@@ -22,7 +22,7 @@
 			"car_types": "Economy",
 			"seats": "4",
 			"price": "$38",
-			"img": "https://goo.gl/4KBQgK"
+			"img": "http://i.imgur.com/dQeki53.png"
 		},
 		{
 			"id": "4",
@@ -30,7 +30,7 @@
 			"car_types": "SUV",
 			"seats": "5",
 			"price": "$50",
-			"img": "https://goo.gl/UNi3Gi"
+			"img": "http://i.imgur.com/w4vB1Uu.png"
 		},
 		{
 			"id": "5",
@@ -38,7 +38,7 @@
 			"car_types": "Compact",
 			"seats": "5",
 			"price": "$42",
-			"img": "https://goo.gl/155gUs"
+			"img": "http://i.imgur.com/gS851Y2.png"
 		},
 		{
 			"id": "6",
@@ -46,7 +46,7 @@
 			"car_types": "Economy",
 			"seats": "4",
 			"price": "$38",
-			"img": "https://goo.gl/uTz8if"
+			"img": "http://i.imgur.com/sOygA06.png"
 		},
 		{
 			"id": "7",
@@ -54,7 +54,7 @@
 			"car_types": "Economy",
 			"seats": "4",
 			"price": "$48",
-			"img": "https://goo.gl/MF5cnP"
+			"img": "http://i.imgur.com/f5fKUh4.png"
 		},
 		{
 			"id": "8",
@@ -62,7 +62,7 @@
 			"car_types": "Compact",
 			"seats": "4",
 			"price": "$52",
-			"img": "https://goo.gl/zssrHI"
+			"img": "http://i.imgur.com/qnrWtW5.png"
 		},
 		{
 			"id": "9",
@@ -70,7 +70,7 @@
 			"car_types": "Premium",
 			"seats": "4",
 			"price": "$54",
-			"img": "https://goo.gl/ElEXCl"
+			"img": "http://i.imgur.com/7Yomz5V.png"
 		},
 		{
 			"id": "10",
@@ -78,7 +78,7 @@
 			"car_types": "Premium",
 			"seats": "5",
 			"price": "$49",
-			"img": "https://goo.gl/9oMcBV"
+			"img": "http://i.imgur.com/CJhU4jk.png"
 		},
 		{
 			"id": "11",
@@ -86,7 +86,7 @@
 			"car_types": "Standard Convertible",
 			"seats": "4",
 			"price": "$65",
-			"img": "https://goo.gl/w0SG7D"
+			"img": "http://i.imgur.com/fkUY6Rt.png"
 		},
 		{
 			"id": "12",
@@ -94,7 +94,7 @@
 			"car_types": "SUV",
 			"seats": "5",
 			"price": "$60",
-			"img": "https://goo.gl/mvdo5L"
+			"img": "http://i.imgur.com/m5Q0JeK.png"
 		},
 		{
 			"id": "13",
@@ -102,7 +102,7 @@
 			"car_types": "SUV",
 			"seats": "7",
 			"price": "$107",
-			"img": "https://goo.gl/UxLuup"
+			"img": "http://i.imgur.com/R1qsB16.png"
 		},
 		{
 			"id": "14",
@@ -110,7 +110,7 @@
 			"car_types": "SUV",
 			"seats": "8",
 			"price": "$93",
-			"img": "https://lh4.googleusercontent.com/a6CPtDWvx4tQeSk_UqUKWXS-uE4CKzV-g4GhtRVVRUnj0ieLbee-2D1yVfBXTTCpnN-YUSyz8wY-UyE=w2560-h1406-rw"
+			"img": "http://i.imgur.com/mAOPxCP.png"
 		},
 		{
 			"id": "15",
@@ -118,7 +118,7 @@
 			"car_types": "Premium",
 			"seats": "5",
 			"price": "$49",
-			"img": "https://lh6.googleusercontent.com/6eg_81PfAUuzqRluz5bFOLE-2JC7WDhGnEYnkli1iRF5beJg8FboL3ChmEyXOMmxPuvZBzegumHMPHo=w2560-h1406-rw"
+			"img": "http://i.imgur.com/GjCq04o.png"
 		},
 		{
 			"id": "16",
@@ -126,7 +126,7 @@
 			"car_types": "Premium",
 			"seats": "5",
 			"price": "$54",
-			"img": "https://lh6.googleusercontent.com/kAO6SlBKMAzMUeEmr6fTIAa8RsIlRc1HOEusL-vtTMH5JvC50NpFfTZmAjMq_VIkHFgu3wcLsjZWz0w=w2560-h1406-rw"
+			"img": "http://i.imgur.com/ybohyhF.png"
 		},
 		{
 			"id": "17",
@@ -134,7 +134,7 @@
 			"car_types": "Compact",
 			"seats": "5",
 			"price": "$39",
-			"img": "https://lh6.googleusercontent.com/CH2QwUOZJBW95XHCM4tO21sAwlK5wz5cd6e7tpZUFslALZOfoDYToFDcxDzEPPBkasYg0MKcsXMvEfM=w2560-h1406-rw"
+			"img": "http://i.imgur.com/sRcrwh0.png"
 		},
 		{
 			"id": "18",
@@ -142,7 +142,7 @@
 			"car_types": "Compact",
 			"seats": "5",
 			"price": "$51",
-			"img": "https://lh5.googleusercontent.com/6g93ncE-MgGoTXs6oD_SUw17N01DKbr29m2Y797BVyZEs82POGz3dKiTlzK6oyi_JR22KGheqm-qVxw=w2560-h1406-rw"
+			"img": "http://i.imgur.com/wZVT1UU.png"
 		},
 		{
 			"id": "19",
@@ -150,7 +150,7 @@
 			"car_types": "SUV",
 			"seats": "5",
 			"price": "$70",
-			"img": "https://lh3.googleusercontent.com/Ehuqw_s9O6C8MKmFwKY8DkWfrIQDjIRVW7DmjrzzBnU_RR1yvBj-8nWbpUYmWeX-ZbsOfI5AUuxp8q8=w2560-h1406-rw"
+			"img": "http://i.imgur.com/Mm7GVfE.png"
 		},
 		{
 			"id": "20",
@@ -158,7 +158,7 @@
 			"car_types": "SUV",
 			"seats": "5",
 			"price": "$45",
-			"img": "https://lh4.googleusercontent.com/45eesmyuUqhJDL1wF6OF99HvISaEZfZfGhDIu_XHWol6NDxc5bdmUrV-Ou8KtMT6wR-Fvy0CHfu_Okw=w2560-h1406-rw"
+			"img": "http://i.imgur.com/FlrrY8l.png"
 		}
 
 	]
