@@ -1,0 +1,165 @@
+{"item":
+	[
+		{
+			"id": "1",
+			"title": "Economy - Jeep",
+			"car_types": "SUV",
+			"seats": "5",
+			"price": "$35",
+			"img": "https://goo.gl/YjlbB4"
+		},
+		{
+			"id": "2",
+			"title": "Dollar - Toyota",
+			"car_types": "Economy",
+			"seats": "4",
+			"price": "$37",
+			"img": "https://goo.gl/AjzSo0"
+		},
+		{
+			"id": "3",
+			"title": "Budget - Ford",
+			"car_types": "Economy",
+			"seats": "4",
+			"price": "$38",
+			"img": "https://goo.gl/4KBQgK"
+		},
+		{
+			"id": "4",
+			"title": "Budget - Ford SUV",
+			"car_types": "SUV",
+			"seats": "5",
+			"price": "$50",
+			"img": "https://goo.gl/UNi3Gi"
+		},
+		{
+			"id": "5",
+			"title": "ACE - Hyundai",
+			"car_types": "Compact",
+			"seats": "5",
+			"price": "$42",
+			"img": "https://goo.gl/155gUs"
+		},
+		{
+			"id": "6",
+			"title": "enterprise - Mitsubishi",
+			"car_types": "Economy",
+			"seats": "4",
+			"price": "$38",
+			"img": "https://goo.gl/uTz8if"
+		},
+		{
+			"id": "7",
+			"title": "Payless - Hyundai",
+			"car_types": "Economy",
+			"seats": "4",
+			"price": "$48",
+			"img": "https://goo.gl/MF5cnP"
+		},
+		{
+			"id": "8",
+			"title": "Payless - Nissan",
+			"car_types": "Compact",
+			"seats": "4",
+			"price": "$52",
+			"img": "https://goo.gl/zssrHI"
+		},
+		{
+			"id": "9",
+			"title": "AVIS - Ford",
+			"car_types": "Premium",
+			"seats": "4",
+			"price": "$54",
+			"img": "https://goo.gl/ElEXCl"
+		},
+		{
+			"id": "10",
+			"title": "Dollar - Chevlet",
+			"car_types": "Premium",
+			"seats": "5",
+			"price": "$49",
+			"img": "https://goo.gl/9oMcBV"
+		},
+		{
+			"id": "11",
+			"title": "enterprise - Ford Mustang",
+			"car_types": "Standard Convertible",
+			"seats": "4",
+			"price": "$65",
+			"img": "https://goo.gl/w0SG7D"
+		},
+		{
+			"id": "12",
+			"title": "FOX - Jeep SUV",
+			"car_types": "SUV",
+			"seats": "5",
+			"price": "$60",
+			"img": "https://goo.gl/mvdo5L"
+		},
+		{
+			"id": "13",
+			"title": "enterprise - Lincoln Navigator",
+			"car_types": "SUV",
+			"seats": "7",
+			"price": "$107",
+			"img": "https://goo.gl/UxLuup"
+		},
+		{
+			"id": "14",
+			"title": "enterprise - Chevlet Suburban",
+			"car_types": "SUV",
+			"seats": "8",
+			"price": "$93",
+			"img": "https://lh4.googleusercontent.com/a6CPtDWvx4tQeSk_UqUKWXS-uE4CKzV-g4GhtRVVRUnj0ieLbee-2D1yVfBXTTCpnN-YUSyz8wY-UyE=w2560-h1406-rw"
+		},
+		{
+			"id": "15",
+			"title": "Thrifty - Chevlet",
+			"car_types": "Premium",
+			"seats": "5",
+			"price": "$49",
+			"img": "https://lh6.googleusercontent.com/6eg_81PfAUuzqRluz5bFOLE-2JC7WDhGnEYnkli1iRF5beJg8FboL3ChmEyXOMmxPuvZBzegumHMPHo=w2560-h1406-rw"
+		},
+		{
+			"id": "16",
+			"title": "Hertz - Chevlet",
+			"car_types": "Premium",
+			"seats": "5",
+			"price": "$54",
+			"img": "https://lh6.googleusercontent.com/kAO6SlBKMAzMUeEmr6fTIAa8RsIlRc1HOEusL-vtTMH5JvC50NpFfTZmAjMq_VIkHFgu3wcLsjZWz0w=w2560-h1406-rw"
+		},
+		{
+			"id": "17",
+			"title": "Thrifty - Toyota",
+			"car_types": "Compact",
+			"seats": "5",
+			"price": "$39",
+			"img": "https://lh6.googleusercontent.com/CH2QwUOZJBW95XHCM4tO21sAwlK5wz5cd6e7tpZUFslALZOfoDYToFDcxDzEPPBkasYg0MKcsXMvEfM=w2560-h1406-rw"
+		},
+		{
+			"id": "18",
+			"title": "FOX - Nissan",
+			"car_types": "Compact",
+			"seats": "5",
+			"price": "$51",
+			"img": "https://lh5.googleusercontent.com/6g93ncE-MgGoTXs6oD_SUw17N01DKbr29m2Y797BVyZEs82POGz3dKiTlzK6oyi_JR22KGheqm-qVxw=w2560-h1406-rw"
+		},
+		{
+			"id": "19",
+			"title": "enterprise - BMW",
+			"car_types": "SUV",
+			"seats": "5",
+			"price": "$70",
+			"img": "https://lh3.googleusercontent.com/Ehuqw_s9O6C8MKmFwKY8DkWfrIQDjIRVW7DmjrzzBnU_RR1yvBj-8nWbpUYmWeX-ZbsOfI5AUuxp8q8=w2560-h1406-rw"
+		},
+		{
+			"id": "20",
+			"title": "ADVANTAGE - Toyota",
+			"car_types": "SUV",
+			"seats": "5",
+			"price": "$45",
+			"img": "https://lh4.googleusercontent.com/45eesmyuUqhJDL1wF6OF99HvISaEZfZfGhDIu_XHWol6NDxc5bdmUrV-Ou8KtMT6wR-Fvy0CHfu_Okw=w2560-h1406-rw"
+		}
+
+	]
+}

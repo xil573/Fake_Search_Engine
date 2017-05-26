@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Fake Search Engine</title>
+	<link rel="stylesheet" href="/css/index.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/question1.js"></script>
+    <style>
+        #time_part {
+            text-align: right;
+        }
+    </style>
+</head>
+<body onload="timeCount()">
+    <h4 id = "time_part">Time past (sec): <input type="text" id="mytime" name = "mytime" form="usrform"></h4>
+    <li>
+        <h3>3. Imagine you are going to San Diego for a day trip with your friends and you decided to rent a car and pick up at SAN airport. There are 5 people altogether and the budget for car rental is below $60 per day. Pleae write your decisions below based on the results listed below.</h3>
+    </li>
+    <!--
+    <textarea rows="10" cols="80"></textarea>
+-->
+    <textarea rows="4" cols="50" name="answer" id = "answer" form="usrform"></textarea>
+    <br>
+    <form action="/addAnswer_for_question3" id="usrform">
+        <input type="submit" value="Next" onClick="stopCount()">
+    </form>
+    <br>
+    <!--
+    <button id = "next_button" class = "next_button" onclick = "gotoQuestionnaire()">Next</button>
+-->
+    <ul id="result_list">
+        {{#each item}}
+            <li class="items">
+                <a href="q3_items/{{id}}" class="thumbnail" target="_blank">
+                    <p>{{title}}</p>
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+</body>
+</html>
