@@ -1,0 +1,88 @@
+{"item":
+	[
+		{
+			"id": "1",
+			"title": "Carnegie Mellon University",
+			"image": "https://www.qatar.cmu.edu/wp-content/uploads/2016/07/exchange-1-1200x425.jpg",
+			"link": "http://www.cmu.edu",
+			"content": "A private, global research university, Carnegie Mellon stands among the world's most renowned educational institutions, and sets its own course."
+		},
+		{
+			"id": "2",
+			"title": "Massachusetts Institute of Technology",
+			"image": "http://i.huffpost.com/gen/2736712/images/o-MIT-facebook.jpg",
+			"link": "http://web.mit.edu",
+			"content": "Spanning five schools — architecture and planning; engineering; humanities, arts, and social sciences; management; and science — and more than 30 departments and programs, an education at MIT covers more than just science and technology."
+		},
+		{
+			"id": "3",
+			"title": "Cornell University",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/3/34/Cornell_University%2C_Ho_Plaza_and_Sage_Hall.jpg",
+			"link": "http://www.cornell.edu",
+			"content": "Cornell offers nearly 80 formal major fields, listed below, as well as challenging dual-degree programs and a score of interdisciplinary majors that cross traditional departmental boundaries."
+		},
+		{
+			"id": "4",
+			"title": "Princeton University",
+			"image": "https://cms.artandarchaeology.princeton.edu/media/thumbnails/cambridge-university-1.jpg?w=1630&h=1222&c=true&d=false",
+			"link": "https://www.princeton.edu",
+			"content": "Through teaching and research, we educate people who will contribute to society and develop knowledge that will make a difference in the world."
+		},
+		{
+			"id": "5",
+			"title": "Georgia Institute of Technology",
+			"image": "https://collegetimes.co/wp-content/uploads/georgia-institute-of-technology-1.jpg",
+			"link": "http://www.gatech.edu",
+			"content": "The Georgia Institute of Technology (commonly referred to as Georgia Tech, Tech, or GT) is a public research university in Atlanta, Georgia, in the United States. It is a part of the University System of Georgia and has satellite campuses in Savannah, Georgia; Metz, France; Athlone, Ireland; Shenzhen, China; and Singapore."
+		},
+		{
+				"id": "6",
+				"title": "Stanford University",
+				"image": "https://media.licdn.com/mpr/mpr/shrinknp_674_240/p/8/005/06f/25d/1d60a51.jpg",
+				"link": "https://www.stanford.edu/",
+				"content": "Stanford University is a private research university in Stanford, California, adjacent to Palo Alto and between San Jose and San Francisco. Its 8,180-acre campus is one of the largest in the United States.Stanford also has land and facilities elsewhere."
+			},
+			{
+				"id": "7",
+				"title": "University of California—​Berkeley",
+				"image": "http://core0.staticworld.net/images/article/2014/12/uc_berkeley_campus-100535871-primary.idge.jpg",
+				"link": "http://www.berkeley.edu",
+				"content": "The University of California, Berkeley is a public research university located in Berkeley, California. Founded in 1868, Berkeley is the oldest of the ten research universities in the University of California system, and is often cited as the top public university in the United States and around the world."
+			},
+			{
+				"id": "8",
+				"title": "University of Washington",
+				"image": "https://www.washington.edu/studyabroad/files/2015/02/Cherries.jpg",
+				"link": "https://www.washington.edu/",
+				"content": "The University of Washington, commonly referred to as simply Washington, UW, or informally “U-Dub, ” is a public research university whose largest and original campus is in Seattle, Washington, United States."
+			},
+			{
+			"id": "9",
+			"title": "University of Illinois—​Urbana-​Champaign",
+			"image": "http://catalog.illinois.edu/images/banner.png",
+			"link": "http://illinois.edu",
+			"content": "The University of Illinois at Chicago or UIC is a state-funded public research-intensive university located in Chicago, Illinois, United States. Its campus is in the Near West Side community area, adjacent to the Chicago Loop. "
+		},
+		{
+			"id": "10",
+			"title": "University of Texas—​Austin",
+			"image": "https://www.utexas.edu/sites/default/files/styles/utexas_hero_photo_image/public/hero-photos/maincampus_hero.jpg?itok=ZkKrhFki",
+			"link": "www.utexas.edu/",
+			"content": "The University of Texas at Austin, informally UT Austin, UT, University of Texas, or Texas in sports contexts, is a public research university and the flagship institution of the University of Texas System. "
+		},
+		{
+			"id": "11",
+			"title": "University of Pennsylvania (Wharton)",
+			"image": "http://www.veritas.org/wp-content/uploads/2014/04/UPenn-Med.jpg",
+			"link": "http://www.upenn.edu",
+			"content": "The University of Pennsylvania is a private Ivy League research university located in Philadelphia, Pennsylvania, United States. "
+		},
+		{
+			"id": "12",
+			"title": "University of Chicago",
+			"image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Harper_Midway_Chicago.jpg",
+			"link": "http://www.uchicago.edu",
+			"content": "The University of Chicago is a private research university in Chicago, Illinois. It holds top-ten positions in numerous national and international rankings and measures."
+		}
+	]
+}

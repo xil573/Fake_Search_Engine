@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Fake Search Engine</title>
+	<link rel="stylesheet" href="/css/index.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/question2.js"></script>
+    <style>
+        #time_part {
+            text-align: right;
+        }
+    </style>
+</head>
+<body onload="timeCount()">
+    <h4 id = "time_part">Time past (sec): <input type="text" id="mytime" name = "mytime" form="usrform"></h4>
+    <li>
+        <h3>1. Please plan your day trip to Beijing based on the items shown below. Please ignore prices, distance between places etc. when planning your trip and simply based on your interests.</h3>
+    </li>
+    <!--
+    <textarea rows="10" cols="80"></textarea>
+-->
+    <textarea rows="4" cols="50" name="answer" id = "answer" form="usrform"></textarea>
+    <br>
+    <form action="/addAnswer_for_question2" id="usrform">
+        <input type="submit" value="Next" onClick="stopCount()">
+    </form>
+    <br>
+    <!--
+    <button id = "next_button" class = "next_button" onclick = "gotoQuestionnaire()">Next</button>
+-->
+    <ul id="result_list">
+        {{#each item}}
+            <li class="items">
+                <a href="q2_items/{{id}}" class="thumbnail" target="_blank">
+                    <p>{{title}}</p>
+                </a>
+            </li>
+        {{/each}}
+    </ul>
+</body>
+</html>

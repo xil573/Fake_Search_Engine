@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <title>Fake Search Engine</title>
+	<link rel="stylesheet" href="/css/index.css" />
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    .place_img{
+        margin-top: 10px;
+        max-width: 500px;
+    }
+    </style>
+
+</head>
+<body>
+	<ul>
+        <img class="place_img" hspace="10" src="{{image}}">
+        <h3>Description: </h3>
+		<h4>{{content}}</h4>
+        <br>
+        <p><a href="{{link}}" target="_blank">More details</a></p>
+	</ul>
+</body>
+</html>
