@@ -10,11 +10,12 @@ exports.view = function (req, res) {
             //var content = data.item[i].content;
             //console.log(content);
             var image = data.item[i].img;
-            //var link = data.item[i].link;
+            var price = data.item[i].price;
         }
     }
 
     res.render('question3_items', {
-        'image': image
+        'image': image,
+        'price': price
     });
 };

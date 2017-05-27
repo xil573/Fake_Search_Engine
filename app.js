@@ -21,6 +21,8 @@ var q3 = require('./routes/question3');
 var q3_items = require('./routes/question3_items');
 var questionnaire3 = require('./routes/questionnaire3');
 
+var exit = require('./routes/exit');
+
 var app = express();
 
 // all environments
@@ -62,6 +64,8 @@ app.get('/addAnswer_for_question3', q3.addAnswer);
 app.get('/q3_items/:id', q3_items.view);
 app.get('/questionnaire3', questionnaire3.view);
 app.get('/questionnaire_for_question3', questionnaire3.addAnswer);
+
+app.get('/exit', exit.view);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
