@@ -9,10 +9,12 @@ exports.addAnswer = function (req, res) {
 	var usefulness = req.query.usefulness;
 	var efficiency = req.query.efficiency;
 	var improvement = req.query.improvement;
+	var confident = req.query.confident;
 	var questionnaire_3 = {
 		"usefulness": usefulness,
 		"efficiency": efficiency,
-		"improvement": improvement
+		"improvement": improvement,
+		"confident": confident
 	};
 	console.log(questionnaire_3);
 	answer_file.questionnaires.push(questionnaire_3);

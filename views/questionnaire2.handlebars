@@ -5,8 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
     <title>Fake Search Engine</title>
-	<link rel="stylesheet" href="/css/index.css" />
-	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"
+    <link rel="stylesheet" href="/css/index.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -16,22 +16,26 @@
 <body>
     <form id="questionnaireForm" role="form" method="get" action="/questionnaire_for_question2">
         <div class="form-group">
-            <label for="usefulness"><h4>1. Please rate the overall <strong>usefulness</strong> of the information provided for you to complete the question. (1 being the least useful and 10 being the most useful)</h4></label>
+            <label for="usefulness"><h4>1. Please rate the overall <strong>experience</strong> of using the provided system for you to complete the question. (1 being don't like it at all and 10 being like it very much)</h4></label>                   
             <input type="text" class="form-control" id="usefulness" name="usefulness">
         </div>
         <div class="form-group">
-            <label for="efficiency"><h4>2. Please rate the overall <strong>efficiency</strong> of the provided system for you to complete the question (i.e. does the way the results are displayed help you easily and quickly locate the information you want?). (1 being extremely hard to use and 10 being extremely easy to use)</h4></label>
+            <label for="efficiency"><h4>2. Please rate the overall <strong>efficiency/ease of use</strong> of the provided system for you to complete the question (1 being extremely hard to use and 10 being extremely easy to use)</h4></label>                   
             <input type="text" class="form-control" id="efficiency" name="efficiency">
         </div>
+         <div class="form-group">
+            <label for="efficiency"><h4>3. Do you feel <strong>confident</strong> that the provided system can help you find the information if it was there? (1 being least confident and 10 being extremely donfident)</h4></label>
+            <input type="text" class="form-control" id="confident" name="confident">
+        </div>
         <div class="form-group">
-            <label for="improvement"><h4>3. Can you suggest any imporvement for this system? (optional)</h4></label>
+            <label for="improvement"><h4>4. Can you suggest any imporvement for this system? (optional)</h4></label>                   
             <input type="text" class="form-control" id="improvement" name="improvement">
         </div>
         <input type="submit" id="submitBtn" class="btn btn-default" value="Next"></input>
     </form>
 <!--
 
-	<li>
+    <li>
         <h3>1. Please rate the overall <strong>usefulness</strong> of the information provided for you to complete the question. </h3>
         <h3>(1 being the least useful and 10 being the most useful)</h3>
     </li>
@@ -44,7 +48,7 @@
     <textarea rows="1" cols="50"></textarea>
     <br>
     <li>
-    	<h3>3. Can you suggest any imporvement for this system? (optional)</h3>
+        <h3>3. Can you suggest any imporvement for this system? (optional)</h3>
     </li>
     <textarea rows="10" cols="50"></textarea>
     <br>
