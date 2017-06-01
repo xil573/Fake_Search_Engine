@@ -1,7 +1,7 @@
 var items = require('../question3.json');
 var answer_file = require("../q3_response.json");
 var fs = require('fs');
-
+var mongoose = require('mongoose');
 exports.view = function (req, res) {
     res.render('question3', items);
 };
@@ -10,7 +10,7 @@ exports.addAnswer = function (req, res){
 	var answer = req.query.answer;
     var time = req.query.mytime;
 	//console.log(answer);
-    var mongoose = require('mongoose');
+    //var mongoose = require('mongoose');
     var questionSchema = mongoose.Schema({
         answer: String,
         time: Number

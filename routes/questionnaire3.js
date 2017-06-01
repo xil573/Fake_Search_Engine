@@ -35,7 +35,10 @@ exports.addAnswer = function (req, res) {
 	      //console.log(q1_response.id); // 'Silence'
 	q1_response.save(function(err, q1_response){
 	    if (err) return console.error(err);
-	    else console.log("saved to db for questionnaire3!");
+	    else {
+	    	console.log("saved to db for questionnaire3!");
+	    	mongoose.connection.close()
+	    }
 	});
 
 
