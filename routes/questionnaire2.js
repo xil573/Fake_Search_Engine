@@ -18,6 +18,28 @@ exports.addAnswer = function (req, res) {
 		"confident": confident
 	};
 	console.log(questionnaire_2);
+
+	var mongoose = require('mongoose');
+	var questionnaireSchema = mongoose.Schema({
+		usefulness: Number,
+		efficiency: Number,
+		confident: Number,
+		improvement: String
+	});
+	var questionnaire2_response = mongoose.model('questionnaire2 response', questionnaireSchema);
+	var q1_response = new questionnaire2_response({
+	    usefulness: usefulness,
+		efficiency: efficiency,
+		confident: confident,
+		improvement: improvement
+	});
+	      //console.log(q1_response.id); // 'Silence'
+	q1_response.save(function(err, q1_response){
+	    if (err) return console.error(err);
+	    else console.log("saved to db for questionnaire2!");
+	});
+
+
 	answer_file.questionnaires.push(questionnaire_2);
 	var json = JSON.stringify(answer_file);
 	fs.writeFile("q2_response.json", json, 'utf8', function errorCallback(err) {
