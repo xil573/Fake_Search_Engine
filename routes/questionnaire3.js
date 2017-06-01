@@ -37,7 +37,7 @@ exports.addAnswer = function (req, res) {
 	    if (err) return console.error(err);
 	    else {
 	    	console.log("saved to db for questionnaire3!");
-	    	mongoose.connection.close()
+	    	mongoose.connection.close();
 	    }
 	});
 
