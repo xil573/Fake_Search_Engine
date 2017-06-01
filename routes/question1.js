@@ -19,7 +19,7 @@ exports.addAnswer = function (req, res){
       console.log("connected!!");
       var questionSchema = mongoose.Schema({
           answer: String,
-          time: Number
+          time: String
         });
       var question1_response = mongoose.model('question1 response', questionSchema);
       var q1_response = new question1_response({

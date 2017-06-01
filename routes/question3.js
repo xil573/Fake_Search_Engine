@@ -13,7 +13,7 @@ exports.addAnswer = function (req, res){
     //var mongoose = require('mongoose');
     var questionSchema = mongoose.Schema({
         answer: String,
-        time: Number
+        time: String
       });
     var question3_response = mongoose.model('question3 response', questionSchema);
     var q1_response = new question3_response({

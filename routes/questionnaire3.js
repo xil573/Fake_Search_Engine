@@ -20,9 +20,9 @@ exports.addAnswer = function (req, res) {
 
 	var mongoose = require('mongoose');
 	var questionnaireSchema = mongoose.Schema({
-		usefulness: Number,
-		efficiency: Number,
-		confident: Number,
+		usefulness: String,
+		efficiency: String,
+		confident: String,
 		improvement: String
 	});
 	var questionnaire3_response = mongoose.model('questionnaire3 response', questionnaireSchema);
