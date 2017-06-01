@@ -2,11 +2,11 @@
 	[
 		{
 			"id": "1",
-			"title": "Economy - Jeep",
-			"car_types": "SUV",
-			"seats": "5",
-			"price": "$35",
-			"img": "http://i.imgur.com/atShZqc.png"
+			"title": "Payless - Nissan",
+			"car_types": "Compact",
+			"seats": "4",
+			"price": "$52",
+			"img": "http://i.imgur.com/qnrWtW5.png"
 		},
 		{
 			"id": "2",
@@ -58,11 +58,11 @@
 		},
 		{
 			"id": "8",
-			"title": "Payless - Nissan",
-			"car_types": "Compact",
-			"seats": "4",
-			"price": "$52",
-			"img": "http://i.imgur.com/qnrWtW5.png"
+			"title": "Economy - Jeep",
+			"car_types": "SUV",
+			"seats": "5",
+			"price": "$35",
+			"img": "http://i.imgur.com/atShZqc.png"
 		},
 		{
 			"id": "9",
